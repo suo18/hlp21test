@@ -6,7 +6,8 @@ Q1. How many values does the q1Type type have? int8 is an 8 bit numeric type
 *)
 
 type q1Type =
-    | House of HasRoof: bool * FloorAreaM2: int8
+    | House 
+    of HasRoof: bool * FloorAreaM2: int8
     | Hovel of HasWalls: bool
     | Hut of IsBamboo: bool * IsWaterProof: bool
 
